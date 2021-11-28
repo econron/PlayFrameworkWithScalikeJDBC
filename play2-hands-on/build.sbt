@@ -28,3 +28,4 @@ libraryDependencies ++= Seq(
 )
 // Adds additional packages into conf/routes
 // play.sbt.routes.RoutesKeys.routesImport += "com.example.binders._"
+enablePlugins(ScalikejdbcPlugin)
